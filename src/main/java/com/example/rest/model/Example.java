@@ -1,5 +1,6 @@
 package com.example.rest.model;
 
+import java.io.Serializable;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -8,7 +9,7 @@ import org.hibernate.validator.constraints.NotBlank;
 
 @Entity
 @Table(name="example")
-public class Example {
+public class Example implements Serializable{
 	
 	@Id
 	@GeneratedValue

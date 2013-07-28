@@ -39,6 +39,6 @@ public class Initializer implements WebApplicationInitializer {
 				EnumSet.of(DispatcherType.REQUEST, DispatcherType.FORWARD), 
 				false, 
 				DISPATCHER_SERVLET_NAME);
-	}
+                }
 
 }
